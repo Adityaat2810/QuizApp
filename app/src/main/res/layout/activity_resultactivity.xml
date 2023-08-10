@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/congwall"
+    tools:context=".resultactivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="349dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="400dp"
+
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="you scored: 9/10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="416dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="380dp"
+
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:text="Aditya kumar saini" />
+
+    <Button
+        android:id="@+id/lastbtn"
+        android:layout_width="184dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/wheat"
+        android:text="FINISH"
+        android:textColor="@color/brownish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
